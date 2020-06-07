@@ -14,7 +14,7 @@ html, body{
       cursor: pointer;
       margin-right: 0.5rem;
   }
-  li:after {
+  .navbar-nav li:after {
       content: '';
       display: block;
       margin: auto;
@@ -23,7 +23,7 @@ html, body{
       background: transparent;
       transition: width .3s ease, background-color .3s ease;
   }
-  li:hover:after {
+  .navbar-nav li:hover:after {
       width: 100%;
       background: #55ff06;
   }
