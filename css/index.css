@@ -240,19 +240,19 @@ html, body{
   .paragraph_style {
    
     text-align: center;
-    padding: 3.5%;
+    padding: 3%;
     padding-top: 0rem;
     margin-left: 1rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 
   }
 
   h6 {
     
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     padding-left: 1rem;
     font-weight: bold;
     
