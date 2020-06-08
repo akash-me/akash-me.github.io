@@ -11,14 +11,4 @@ background: #eeeeee;
 
 }
 
-.LI-profile-badge li:hover{
-    text-decoration: none;
-}
-
-
-.LI-profile-badge a:hover:after {
-  text-decoration: none;  
-}
-
-
 
