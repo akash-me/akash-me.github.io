@@ -10,6 +10,10 @@
    <!--Here we i'm going to print the title bar in top -->
    <!---------------------------------------------------->
     <title>Akash Pandey</title>
+    <script>   
+        AOS.init(); 
+     </script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/style.css">
@@ -131,15 +135,15 @@
         
          <div>
                 <!-- The About Section's Heading giving by this tag-->
-                <div class="skill-set" id="skillSet" >Skills</div>
+                <div  data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="skillSet" >Skills</div>
                 <!---------------------------------------------------->
 
 
                 <!-----------------------First Row-------------------->
-                <div style="margin: 1rem; margin-bottom: 0;">
+                <div  style="margin: 1rem; margin-bottom: 0;">
                     <div class="row" style="display: flex;justify-content: center;">
                         <!-----------------First Card-->  
-                        <div class = "boxShadowStyle" style="margin: 1rem;">
+                        <div data-aos="fade-right" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
                         <div class="headingCard" 
                         onmouseover="mouseOver('javaTheoryInitial','javaTheoryLater','60%','javaPracticalInitial','javaPracticalLater','50%')" 
                         onmouseout="mouseOut('javaTheoryInitial','javaTheoryLater','javaPracticalInitial','javaPracticalLater')" >
@@ -179,7 +183,7 @@
                          </div>
                         <!--------------------------------->
                         <!-----------------Secnd Card-->  
-                        <div class = "boxShadowStyle" style="margin: 1rem;">
+                        <div data-aos="fade-up" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
                         <div class="headingCard" 
                         onmouseover="mouseOver('pythonTheoryInitial','pythonTheoryLater','40%','pythonPracticalInitial','pythonPracticalLater','60%')" 
                         onmouseout="mouseOut('pythonTheoryInitial','pythonTheoryLater','pythonPracticalInitial','pythonPracticalLater')" >
@@ -220,7 +224,7 @@
                     
                         <!--------------------------------->
                         <!-----------------Third Card-->  
-                        <div class = "boxShadowStyle" style="margin: 1rem;">
+                        <div data-aos="fade-left" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
                         <div class="headingCard" 
                         onmouseover="mouseOver('htmlTheoryInitial','htmlTheoryLater','25%','htmlPracticalInitial','htmlPracticalLater','30%')" 
                         onmouseout="mouseOut('htmlTheoryInitial','htmlTheoryLater','htmlPracticalInitial','htmlPracticalLater')" >
@@ -266,7 +270,7 @@
                     <div style="margin: 1rem; margin-top: 0rem;">
                 <div class="row" style="display: flex;justify-content: center;">
                     <!-----------------First Card-->  
-                    <div class = "boxShadowStyle" style="margin: 1rem;">
+                    <div data-aos="fade-right" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
                     <div class="headingCard" 
                     onmouseover="mouseOver('dataScienceTheoryInitial','dataScienceTheoryLater','40%','dataSciencePracticalInitial','dataSciencePracticalLater','60%')" 
                     onmouseout="mouseOut('dataScienceTheoryInitial','dataScienceTheoryLater','dataSciencePracticalInitial','dataSciencePracticalLater')" >
@@ -307,7 +311,7 @@
                  
                     <!--------------------------------->
                     <!-----------------Secnd Card-->  
-                    <div class = "boxShadowStyle" style="margin: 1rem;">
+                    <div data-aos="fade-up" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
                     <div class="headingCard" 
                     onmouseover="mouseOver('talendTheoryInitial','talendTheoryLater','30%','talendPracticalInitial','talendPracticalLater','40%')" 
                     onmouseout="mouseOut('talendTheoryInitial','talendTheoryLater','talendPracticalInitial','talendPracticalLater')" >
@@ -347,7 +351,7 @@
                     </div>
                     <!--------------------------------->
                     <!-----------------Third Card-->  
-                    <div class = "boxShadowStyle" style="margin: 1rem;">
+                    <div data-aos="fade-left" data-aos-duration="2000" class = "boxShadowStyle" style="margin: 1rem;">
                     <div class="headingCard" 
                     onmouseover="mouseOver('awsTheoryInitial','awsTheoryLater','20%','awsPracticalInitial','awsPracticalLater','37%')" 
                     onmouseout="mouseOut('awsTheoryInitial','awsTheoryLater','awsPracticalInitial','awsPracticalLater')" >
@@ -393,7 +397,7 @@
         
         <!-- The Words About Me Section's Heading giving by this tag-->
              <div>
-              <div class="skill-set" id="aboutMe" >Words About Me</div>
+              <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="aboutMe" >Words About Me</div>
               <!---------------------------------------------------->
               <!--Words About Me Section Added here               -->
               <!---------------------------------------------------->
@@ -401,7 +405,7 @@
            <div class="row" style="display: flex;justify-content: center;">
                
                  <!-- First Card of Words About Me Card-->
-                  <div class="flip-card" style="margin:1rem;">
+                  <div  data-aos="fade-right" data-aos-duration="2000" class="flip-card" style="margin:1rem;">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
                             <div class="card">
@@ -419,7 +423,7 @@
                   <!------------------------------------------->
                  
                   <!-- Third Card of Words About Me Tab -->
-                   <div class="flip-card" style="margin:1rem;">
+                   <div data-aos="fade-left" data-aos-duration="2000" class="flip-card" style="margin:1rem;">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
                             <div class="card" ><img src="img/Ishan-ConvertImage.jpg" class="imageStyle"></div>
@@ -442,7 +446,7 @@
   
             <!-- The Project Section's Heading giving by this tag-->
             <div>
-              <div class="skill-set" id="projectMy" >Projects</div>
+              <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="projectMy" >Projects</div>
             <!------------------------------------------------------->
                <div style="margin: 1rem;">
                   <!------------------Second Row of Project View Section Added Here -->
@@ -451,7 +455,7 @@
     
 
                         <!------------------------------Fourth card details ------>
-                        <div style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                        <div  data-aos="fade-right" data-aos-duration="2000" style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
                             <!------------------------------------------------------------------>
                             <!--First Card-->
                             <!------------------------------------------------------------------->
@@ -533,7 +537,7 @@
                             
                         <!-----Fifth Card details Added here--------------------------->
                         
-                        <div style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                        <div  data-aos="fade-up" data-aos-duration="2000" style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
                             <!------------------------------------------------------------------>
                             <!--First Card-->
                             <!------------------------------------------------------------------->
@@ -617,7 +621,7 @@
                          <!------------------------------------------------------------------>
                         <!-- Six Card---------------------------------------------- -->
                         <!----------------------------------------------------------------->
-                        <div style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                        <div  data-aos="fade-left" data-aos-duration="2000" style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
                             <!------------------------------------------------------------------>
                             <!--Third Card-->
                             <!------------------------------------------------------------------->
@@ -700,7 +704,7 @@
                     <div class="row" style="display: flex;justify-content: center;">
                      
                     <!------------------------------Bounding first pragraph-->
-                        <div style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                        <div  data-aos="fade-right" data-aos-duration="2000"  style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
                         <!------------------------------------------------------------------>
                         <!--First Card-->
                         <!------------------------------------------------------------------->
@@ -780,7 +784,7 @@
                           
                         
                         <!-----Second Card details Added here--------------------------->
-                        <div style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                        <div  data-aos="fade-up" data-aos-duration="2000"  style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
                             <!------------------------------------------------------------------>
                             <!--First Card-->
                             <!------------------------------------------------------------------->
@@ -864,7 +868,7 @@
                          <!------------------------------------------------------------------>
                         <!-- Third Card---------------------------------------------- -->
                         <!----------------------------------------------------------------->
-                        <div style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
+                        <div  data-aos="fade-left" data-aos-duration="2000" style="width:19.5rem;height: 18rem; margin: 0.5rem;  margin-top: 0rem;">    
                             <!------------------------------------------------------------------>
                             <!--Third Card-->
                             <!------------------------------------------------------------------->
@@ -957,14 +961,14 @@
         <!----------------------------------------------------> 
          <div >
             <!-- The Certifications Section's Heading giving by this tag-->
-            <div class="skill-set" id="myCertificates" >Certifications</div>
+            <div data-aos="fade-up" data-aos-duration="1000"  class="skill-set" id="myCertificates" >Certifications</div>
             <!------------------------------------------------------->
             <!--First Row of Certification--> 
             <div style="margin: 1rem;" > 
                 <div class="row" style="display: flex;justify-content: center;">
                     
                     <!-----------------First Card-->  
-                    <div class="cardCertification" style="margin: 1rem;">
+                    <div  data-aos="fade-right" data-aos-duration="2000"  class="cardCertification" style="margin: 1rem;">
                     <div class="card " >
                         <!------------------>
                         <div style="height:20%">
@@ -987,7 +991,7 @@
                     <!--------------------------------->
                 
                  <!-----------------Second Card-->  
-                 <div class="cardCertification" style="margin: 1rem;">
+                 <div  data-aos="fade-up" data-aos-duration="2000" class="cardCertification" style="margin: 1rem;">
                  <div class="card" >
                         <!------------------>
                         <div style="height:20%">
@@ -1010,7 +1014,7 @@
                     <!--------------------------------->    
              
                   <!-----------------Third Card-->  
-                  <div class="cardCertification" style="margin: 1rem;">
+                  <div  data-aos="fade-left" data-aos-duration="2000"  class="cardCertification" style="margin: 1rem;">
                   <div class="card" >
                         <!------------------>
                         <div style="height:20%">
@@ -1042,7 +1046,7 @@
                    
                    
                     <!-----------------First Card-->  
-                    <div class="cardCertification" style="margin: 1rem; margin-top: 0rem;">
+                    <div  data-aos="fade-right" data-aos-duration="2000" class="cardCertification" style="margin: 1rem; margin-top: 0rem;">
                     <div class="card"   >
                         <!------------------>
                         <div style="height:20%">
@@ -1065,7 +1069,7 @@
                     <!--------------------------------->
                 
                  <!-----------------Second Card-->  
-                 <div class="cardCertification" style="margin: 1rem; margin-top: 0rem;">
+                 <div  data-aos="fade-up" data-aos-duration="2000"  class="cardCertification" style="margin: 1rem; margin-top: 0rem;">
                  <div class="card" >
                         <!------------------>
                         <div style="height:20%">
@@ -1089,7 +1093,7 @@
                     <!--------------------------------->    
              
                   <!-----------------Third Card-->  
-                  <div class="cardCertification" style="margin: 1rem; margin-top: 0rem;">
+                  <div  data-aos="fade-left" data-aos-duration="2000" class="cardCertification" style="margin: 1rem; margin-top: 0rem;">
                   <div class="card" >
                         <!------------------>
                         <div style="height:50%">
@@ -1117,13 +1121,13 @@
         <!----------------------------------------------------> 
          <div >
             <!-- The Contact Section's Heading giving by this tag-->
-            <div class="skill-set" id="myContacts" >Contact Me</div>
+            <div data-aos="fade-up"  data-aos-duration="1000" class="skill-set" id="myContacts" >Contact Me</div>
             <!------------------------------------------------------->
             <div style="margin: 1rem;" > 
                 <div class="row" style="display: flex;justify-content: center;">
                
                <!-------Firstcard------->
-                <div class="card contactDifferent" >
+                <div  data-aos="fade-right" data-aos-duration="2000" class="card contactDifferent" >
                    
                     <!--Gmail added here -->
                     <div class = "row" id="first_block" style = "justify-content: center; margin: 2rem;" onclick="mailRoute()">
@@ -1143,7 +1147,7 @@
                 <!------------------------>
      
                 <!-- Linked in Badge-->
-                <div class="card contactDifferent">
+                <div  data-aos="fade-up" data-aos-duration="2000"  class="card contactDifferent">
                  <div class="LI-profile-badge row"  data-version="v1" data-size="small" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="akas08">
                    <a class="LI-simple-link" id="linkedIn" href='https://in.linkedin.com/in/akas08?trk=profile-badge'>
                     Akash Pandey</a></div>
@@ -1151,7 +1155,7 @@
                 </div>   
                  <!------------------------> 
                 
-                 <div class="card contactDifferent" >
+                 <div  data-aos="fade-left" data-aos-duration="2000"  class="card contactDifferent" >
                  
                     <!-------Github------->
                     <div class = "row" id="github" onclick="gitRoute()">
@@ -1175,9 +1179,9 @@
         <!----------------------------------------------------> 
         <div  style="margin-top: 5rem; ">
             <!-- The Contact Section's Heading giving by this tag-->
-            <div class="skill-set" id="myContacts" >Feedback</div>
+            <div data-aos="fade-up"  data-aos-duration="1000" class="skill-set" id="myContacts" >Feedback</div>
             <!------------------------------------------------------->
-            <div style="display:flex; justify-content: center; height:667; overflow:hidden;">
+            <div  data-aos="zoom-in" data-aos-duration="2000" style="display:flex; justify-content: center; height:667; overflow:hidden;">
                 <iframe 
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdtHVDn2Z0plpbT-4Vrc7nimRfzM119rIosP8CtKp-B46Wrkg/viewform?embedded=true"
                  width="640" height="660" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" >
@@ -1190,7 +1194,7 @@
         <footer>
         <p style="margin-inline-start: 3rem; margin-top: 1rem;">Made By <a onclick="gitRoute()" style="cursor: pointer; color: #55ff06;">Akash</a></p>
     </footer>
-        
+    
     </div>
 
 
@@ -1208,6 +1212,8 @@
 
 
    <!-- scripts required in this program i placed here -->
+   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="js/slide_bar.js"></script>
     <script type="text/javascript" src="js/particles.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript"  src="js/graph.js"></script>
