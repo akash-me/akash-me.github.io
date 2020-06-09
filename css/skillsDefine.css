@@ -12,3 +12,10 @@ background: #eeeeee;
 }
 
 
+.boxShadowStyle:hover{ 
+    border-radius: 1rem;
+    box-shadow: 0 0rem 0.4rem #55ff06;
+  
+   } 
+
+

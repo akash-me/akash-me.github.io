@@ -103,7 +103,7 @@ var TxtType = function(el, toRotate, period) {
         window.open("https://www.hackerearth.com/@akashpandey123");
     };
     function gitRoute(){
-        window.open("https://github.com/akashf");
+        window.open("https://github.com/akash-me");
     };
     function sourceRoute(){
         window.open("https://sourcerer.io/akashf");
@@ -138,3 +138,16 @@ function resumeRoute() {
     window.open('https://drive.google.com/file/d/1DDyK6gkRZreXvlvh33CkDqlR_k042Kzv/view?usp=sharing', '_blank');
     
   }  
+
+
+  var delayInMilliseconds = 500; // half a second
+
+setTimeout(function() { 
+
+   var iframe = document.getElementsByTagName('iframe')[0];
+   iframe.style.background = '#121212';
+   iframe.contentWindow.document.body.style.backgroundColor = '#121212';
+
+   iframe.contentWindow.document.body.style.color = '#121212';
+
+}, delayInMilliseconds);

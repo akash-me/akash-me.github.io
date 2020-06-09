@@ -271,7 +271,7 @@ html, body{
 
   .recommend{
     width: 100%;
-    margin-top:5rem ;
+    margin-top:3rem ;
     text-align: center;
   }
 
@@ -440,8 +440,8 @@ html, body{
 }
 .skillHeading{
  text-align: center;
- margin: 0.5rem;
  font-size: 1.5rem;
+ padding-top: 0.3rem;
 }
 .subHeading{
   margin-top: 1rem;
@@ -478,15 +478,15 @@ html {
 .cardCertification{
   border-radius: 1rem;
       position:relative;
-	transition: all 1s ease-out;
-	-webkit-transition: all 1s ease-out;
-	-moz-transition: all 1s ease-out;
-	-o-transition: all 1s ease-out;
-  -ms-transition: all 1s ease-out;
+	transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
 }
 
 .cardCertification:hover{ top:-5px;
   padding: 0rem;
-  box-shadow: 0 0rem 0.19rem #55ff06;
+  box-shadow: 0 0rem 0.5rem #55ff06;
 
  } 
