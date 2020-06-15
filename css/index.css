@@ -489,3 +489,10 @@ html {
   box-shadow: 0 0rem 0.5rem #55ff06;
 
  } 
+ #imageMy{
+   margin-top: 0.2rem;
+   margin-left: 10.2rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+}
