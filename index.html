@@ -13,11 +13,12 @@
     <script>   
         AOS.init(); 
      </script>
+     <link rel="shortcut icon" type="img/x-icon" href="logo/akash_top.png">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skillsDefine.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/skillsDefine.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" >
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
@@ -37,64 +38,72 @@
    <!---------------------------------------------------->
    <!--Navigation bar top i defined here               -->
    <!---------------------------------------------------->
+           <nav class="navbar  navbar-expand-lg navbar-dark bg-dark navbar-inverse"
+   style="background-color: #121212;">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+       style="background-color: #121212;">
+       <span class="navbar-toggler-icon" style="background-color: #121212;"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="background-color: #121212;">
+       <div class="navbar-nav">
+           <ul class="nav navbar-nav">
+   
+           <!-- Adding Styles to Skills Section -->
+           <!------------------------------------->
+               <li class="nav-item  adjustPadding">
+                   <a id="skills" class="nav-link" onclick="skillRoute()">Skills</a>
+               </li>
+           <!------------------------------------->
            
-            <nav class="navbar  navbar-expand-lg navbar-dark bg-dark navbar-inverse"
-                style="background-color: #121212;">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
-                    style="background-color: #121212;">
-                    <span class="navbar-toggler-icon" style="background-color: #121212;"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="background-color: #121212;">
-                    <div class="navbar-nav">
-                        <ul class="nav navbar-nav">
-                
-                        <!-- Adding Styles to Skills Section -->
-                        <!------------------------------------->
-                            <li class="nav-item  adjustPadding">
-                                <a id="skills" class="nav-link" onclick="skillRoute()">Skills</a>
-                            </li>
-                        <!------------------------------------->
-                        
 
-                        <!-- Adding Styles to Wrods about me Section -->
-                        <!-------------------------------------->
-                        <li class="nav-item  adjustPadding">
-                                <a id="recommendations" class="nav-link" onclick="aboutRoute()">Words About Me</a>
-                            </li>
-                        <!-------------------------------------->
+           <!-- Adding Styles to Wrods about me Section -->
+           <!-------------------------------------->
+           <li class="nav-item  adjustPadding">
+                   <a id="recommendations" class="nav-link" onclick="aboutRoute()">Words About Me</a>
+               </li>
+           <!-------------------------------------->
 
-                        <!-- Adding Styles to Project Section -->
-                        <!-------------------------------------->
-                            <li class="nav-item  adjustPadding">
-                                <a id="project" class="nav-link" onclick="projectRoute()">Projects</a>
-                            </li>
-                        <!------------------------------------->
+           <!-- Adding Styles to Project Section -->
+           <!-------------------------------------->
+               <li class="nav-item  adjustPadding">
+                   <a id="project" class="nav-link" onclick="projectRoute()">Projects</a>
+               </li>
+           <!------------------------------------->
+
+        
+
+           <!-- Adding Styles to Certifications Section -->
+           <!-------------------------------------->
+               <li class="nav-item  adjustPadding">
+                   <a id="certifications" class="nav-link" onclick="certificationRoute()">Certifications</a>
+               </li>
+           <!-------------------------------------->
+            <!-- Adding Styles to resume Section -->
+           <!-------------------------------------->
+           <li class="nav-item  adjustPadding">
+               <a id="resume" class="nav-link" onclick="resumeRoute()">Resume</a>
+           </li>
+           <!-------------------------------------->
+           <!-- Adding Styles to Contact Section -->
+           <!-------------------------------------->
+               <li class="nav-item  adjustPadding">
+                   <a id="contact" class="nav-link" onclick="contactRoute()">Contact Me</a>
+               </li>
+           <!-------------------------------------->    
+           </ul>
          
-                     
-
-                        <!-- Adding Styles to Certifications Section -->
-                        <!-------------------------------------->
-                            <li class="nav-item  adjustPadding">
-                                <a id="certifications" class="nav-link" onclick="certificationRoute()">Certifications</a>
-                            </li>
-                        <!-------------------------------------->
-                         <!-- Adding Styles to resume Section -->
-                        <!-------------------------------------->
-                        <li class="nav-item  adjustPadding">
-                            <a id="resume" class="nav-link" onclick="resumeRoute()">Resume</a>
-                        </li>
-                        <!-------------------------------------->
-                        <!-- Adding Styles to Contact Section -->
-                        <!-------------------------------------->
-                            <li class="nav-item  adjustPadding">
-                                <a id="contact" class="nav-link" onclick="contactRoute()">Contact Me</a>
-                            </li>
-                        <!-------------------------------------->    
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+       </div>
+       <div class="navbar-collapse  order-3 dual-collapse2 ">
+           <ul class="navbar-nav ml-auto">
+               <li class="nav-item  adjustPadding">
+                   <a id="feedback" class="nav-link" onclick="feedbackRoute()">Feedback</a>
+               </li>
+           </ul>
+       </div>
+   </div>
+   
+            </nav>   
         </div>
      
         <!---------------------------------------------------->
@@ -109,15 +118,15 @@
         <!--particle js i added here                        -->
         <!---------------------------------------------------->
        
-        <div id="particles" style="height: 42rem;">
-            <div id="particles-js" class="particle-js-area" style="height: 42rem">
+        <div id="particles" style="height: 35rem;">
+            <div id="particles-js" class="particle-js-area" style="height: 250rem">
                 <div class="btext">
                     <h1>
         <!---------------------------------------------------->
         <!--Text Added here which is printing on top        -->
         <!---------------------------------------------------->
         
-                        <p class="typewrite" data-period="2000"
+                        <p class="typewrite" data-period="500"
                             data-type='[ "Hi, I am Akash.", "I am Creative.", "I Love to Code.", "I Love to Develop.", "I develop data into something beautiful and easy to understand" ]'>
                             <span class="wrap"></span>
                         </p>
@@ -133,9 +142,9 @@
         <!--Skills section here                          -->
         <!---------------------------------------------------->
         
-         <div>
+         <div id="skillSet" >
                 <!-- The About Section's Heading giving by this tag-->
-                <div  data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="skillSet" >Skills</div>
+                <div  data-aos="fade-up" data-aos-duration="1000" class="skill-set" >Skills</div>
                 <!---------------------------------------------------->
 
 
@@ -396,8 +405,8 @@
 
         
         <!-- The Words About Me Section's Heading giving by this tag-->
-             <div>
-              <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="aboutMe" >Words About Me</div>
+             <div  id="aboutMe" >
+              <div data-aos="fade-up" data-aos-duration="1000" class="skill-set">Words About Me</div>
               <!---------------------------------------------------->
               <!--Words About Me Section Added here               -->
               <!---------------------------------------------------->
@@ -413,8 +422,10 @@
                                 </div>
                           </div>
                         <div class="flip-card-back"  >
-                                <div class="card"> <p class="recommend" >Akash is a guy who will deliver what he promises. He is hardworking and goes out of his way to achieve the deliverables on time and of the highest quality. He is smart and truly an asset in any team.</p>
-                                    <a  href="https://www.linkedin.com/in/rishabh-agarwal-9096074621/" class = "linkClass"target="_blank">Rishabh Agarwal</a>
+                                <div class="card"> <p class="recommend" >Akash is a guy who will deliver what he promises.
+                                     He is hardworking and goes out of his way to achieve the deliverables 
+                                     on time and of the highest quality. He is smart and truly an asset in any team.</p>
+                                    <a  href="https://www.linkedin.com/in/rishabh-agarwal-9096074621/" class = "linkClass" target="_blank">Rishabh Agarwal</a>
                                 </div>
                                 
                         </div> 
@@ -445,8 +456,8 @@
         <!----------------------------------------------------> 
   
             <!-- The Project Section's Heading giving by this tag-->
-            <div>
-              <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="projectMy" >Projects</div>
+            <div id="projectMy" >
+              <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" >Projects</div>
             <!------------------------------------------------------->
                <div style="margin: 1rem;">
                   <!------------------Second Row of Project View Section Added Here -->
@@ -959,9 +970,9 @@
         <!---------------------------------------------------->
         <!-- Certifications Section Added here                -->
         <!----------------------------------------------------> 
-         <div >
+         <div id="myCertificates" >
             <!-- The Certifications Section's Heading giving by this tag-->
-            <div data-aos="fade-up" data-aos-duration="1000"  class="skill-set" id="myCertificates" >Certifications</div>
+            <div data-aos="fade-up" data-aos-duration="1000"  class="skill-set" >Certifications</div>
             <!------------------------------------------------------->
             <!--First Row of Certification--> 
             <div style="margin: 1rem;" > 
@@ -1119,9 +1130,9 @@
         <!---------------------------------------------------->
         <!-- Contacts Section Added here                    -->
         <!----------------------------------------------------> 
-         <div >
+         <div id="myContacts" >
             <!-- The Contact Section's Heading giving by this tag-->
-            <div data-aos="fade-up"  data-aos-duration="1000" class="skill-set" id="myContacts" >Contact Me</div>
+            <div data-aos="fade-up"  data-aos-duration="1000" class="skill-set" >Contact Me</div>
             <!------------------------------------------------------->
             <div style="margin: 1rem;" > 
                 <div class="row" style="display: flex;justify-content: center;">
@@ -1177,14 +1188,14 @@
          <!---------------------------------------------------->
         <!-- FeedBack Section Added here                    -->
         <!----------------------------------------------------> 
-        <div  style="margin-top: 5rem; ">
+        <div  style="margin-top: 2rem;" id="myfeedback">
             <!-- The Contact Section's Heading giving by this tag-->
-            <div data-aos="fade-up"  data-aos-duration="1000" class="skill-set" id="myContacts" >Feedback</div>
+            <div data-aos="fade-up"  data-aos-duration="1000" class="skill-set" style="margin-bottom: 2rem;" >Feedback</div>
             <!------------------------------------------------------->
             <div  data-aos="zoom-in" data-aos-duration="2000" style="display:flex; justify-content: center; height:667; overflow:hidden;">
                 <iframe 
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdtHVDn2Z0plpbT-4Vrc7nimRfzM119rIosP8CtKp-B46Wrkg/viewform?embedded=true"
-                 width="640" height="660" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" >
+                 width="640" height="650" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" >
                     Loading…</iframe>
                 </div>
         </div>   
@@ -1192,7 +1203,15 @@
 
         
         <footer>
-        <p style="margin-inline-start: 3rem; margin-top: 1rem;">Made By <a onclick="gitRoute()" style="cursor: pointer; color: #55ff06;">Akash</a></p>
+        <div class="row" style="display:flex; justify-content: start;margin: 1rem;">
+            <div> Made By &nbsp;</div>
+          <div>     
+            <a onclick="gitRoute()" style="cursor: pointer; color: #55ff06;">Akash &nbsp;</a>
+        </div>
+        <div>
+            <i style="color: rgb(255, 75, 20);"  class="fa fa-heart" aria-hidden="true"></i>
+        </div>
+    </div>
     </footer>
     
     </div>

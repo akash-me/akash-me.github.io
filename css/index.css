@@ -42,9 +42,8 @@ html, body{
   
   .skill-set{
       margin: 1rem;
-      padding: 1rem;
+      padding: 0.2rem;
       font-size: 2rem;
-      height: 5rem;
       color:  #eeeeee;
       cursor: default;
       background-color: #2f2f2f!important;
